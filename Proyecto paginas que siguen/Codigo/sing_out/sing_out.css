@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+
 :root {
     --Color-1: #1D0A3F;
     --Color-2: #F1BA52;
@@ -6,26 +8,21 @@
     --Color-5: #a74b4b;
 }
 
-body {
-    font-family: duolingo-2,'Times New Roman', Times, serif;
-}
 
-h1 {
-    font-family: duolingo;
-}
 
 body {
     margin: 0;
     padding: 0;
     background: url(/img/fondoweb.jpg) no-repeat;
     background-size: 100%;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 
 .logo {
     width: 40%;
     height: 400px;
-    background: url(/img/Doge\ logo.svg) no-repeat center/cover;
+    background: url(/img/Doge_logo.svg) no-repeat center/cover;
     display: block;
     flex-direction: column;
     justify-content: flex-end;
@@ -47,9 +44,9 @@ body {
     position: absolute;
     top: 405px;
     left: 15px;
-    font-family: duolingo;
     font-size: 30px;
     width: 500px;
+    font-weight: bold;
 }
 
 
@@ -67,7 +64,6 @@ body {
 .sing-up__container-form label {
     display: block;
     color: var(--Color-2);
-    font-family: duolingo, Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
